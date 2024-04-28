@@ -1,0 +1,50 @@
+.navbar {
+  background: rgba(255, 255, 255, 1);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 240px;
+  padding-right: 40px;
+}
+
+.navbar__title {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.navbar__ui {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar__ui__input {
+  background: rgba(242, 244, 247, 1);
+}
+
+.navbar__ui__input__textfield {
+  color: rgba(113, 142, 191, 1);
+}
+
+.navbar__ui__settings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: rgba(242, 244, 247, 1);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.navbar__ui__notifications {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: rgba(242, 244, 247, 1);
+  border-radius: 50%;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.rates {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  height: 400px;
+  width: 500px;
+  border-radius: 25px;
+  padding: 30px;
+  gap: 30px;
+}
+
+.rates__elem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  &__num {
+    font-size: 40px;
+    font-weight: 400;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    background: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.rates__elem__text {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    color: #1f222e;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  &__desc {
+    color: #718ebf;
+    font-weight: 400;
+    font-size: 15px;
+  }
+}
